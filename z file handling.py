@@ -1,0 +1,6 @@
+file_write=open('student list.txt','w')
+file_write.write("Rakshitha is a creative girl,her favourite subject is maths.")
+file_write.close()
+file_append=open('student list.txt','a')
+file_append.write("\nAkshaya is a brilliant girl, her favourite subject is computer.")
+file_append.close()
